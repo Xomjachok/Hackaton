@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5b94cc63-384d-47aa-8eb6-dabe9411b6fe" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/HELP.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/javaback/ems/EmsBackendApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/javaback/ems/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/javaback/ems/dto/UserDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/javaback/ems/entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/javaback/ems/exception/ResourceNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/javaback/ems/mapper/UserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/javaback/ems/repository/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/javaback/ems/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/javaback/ems/service/impl/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/net/javaback/ems/EmsBackendApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/javaback/ems/EmsBackendApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/javaback/ems/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/javaback/ems/dto/UserDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/javaback/ems/entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/javaback/ems/exception/ResourceNotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/javaback/ems/mapper/UserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/javaback/ems/repository/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/javaback/ems/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/javaback/ems/service/impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/net/javaback/ems/EmsBackendApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ems-frontend/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ems-frontend/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ems-frontend/eslint.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ems-frontend/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ems-frontend/jsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ems-frontend/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ems-frontend/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ems-frontend/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ems-frontend/src/App.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ems-frontend/src/HelloWorld.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ems-frontend/src/assets/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ems-frontend/src/components/EmployeeComponent.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ems-frontend/src/components/FooterComponent.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ems-frontend/src/components/Header.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ems-frontend/src/components/HeaderComponent.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ems-frontend/src/components/HomeHeader.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ems-frontend/src/components/HomeHeader.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ems-frontend/src/components/HomeLogIn.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ems-frontend/src/components/ListEmployeeComponent.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ems-frontend/src/components/LoginForm.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ems-frontend/src/components/Pages/Chat.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ems-frontend/src/components/Pages/Home.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ems-frontend/src/components/Pages/Login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ems-frontend/src/components/Pages/Login.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ems-frontend/src/components/Pages/Registration.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ems-frontend/src/components/QueryInput.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ems-frontend/src/components/QueryInputComponent.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ems-frontend/src/components/Sidebar/ChatItem.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ems-frontend/src/components/Sidebar/ChatList.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ems-frontend/src/components/Sidebar/Sidebar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ems-frontend/src/components/Sidebar/Sidebar.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ems-frontend/src/context/ChatContext.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ems-frontend/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ems-frontend/src/main.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ems-frontend/src/services/EmployeeService.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ems-frontend/vite.config.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "ViktorHarko"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Xomjachok/Hackaton.git",
+    "accountId": "b124c15d-471a-40e7-a62c-bef866dbc525"
+  }
+}]]></component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2otuRtRLpEXKNwUmzQXql0iRrvy" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.EmsBackendApplicationTests.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.EmsBackendApplication (1).executor": "Run",
+    "Spring Boot.EmsBackendApplication.executor": "Profiler#1",
+    "Spring Boot.EmsBackendApplication2.executor": "Run",
+    "Spring Boot.Unnamed.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/viktorharko/WebstormProjects/Hackaton/full-stack/Ems-backend",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Spring Boot.Unnamed">
+    <configuration name="EmsBackendApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Ems-backend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="net.javaback.ems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="net.javaback.ems" />
+      <option name="MAIN_CLASS_NAME" value="net.javaback.ems.EmsBackendApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Ems-backend" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="net.javaback.ems.EmsBackendApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.EmsBackendApplicationTests" />
+      <item itemvalue="Spring Boot.Unnamed" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.EmsBackendApplicationTests" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.20224.387" />
+        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-IU-242.20224.387" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5b94cc63-384d-47aa-8eb6-dabe9411b6fe" name="Changes" comment="" />
+      <created>1731701188033</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1731701188033</updated>
+      <workItem from="1731701189063" duration="6141000" />
+      <workItem from="1732028981754" duration="14414000" />
+      <workItem from="1732410688286" duration="284000" />
+      <workItem from="1732411028563" duration="4380000" />
+      <workItem from="1732415899552" duration="1232000" />
+      <workItem from="1732424746008" duration="728000" />
+      <workItem from="1732426496649" duration="263000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Ems_backend$EmsBackendApplication.ic" NAME="EmsBackendApplication Coverage Results" MODIFIED="1732415724514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
+  </component>
+</project>

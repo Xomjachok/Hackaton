@@ -1,4 +1,4 @@
-/* Контейнер форми */
+
 .form-container {
     display: flex;
     align-items: center;
@@ -7,7 +7,6 @@
     background-color: #f4f4f4;
 }
 
-/* Стиль форми */
 .form {
     background-color: #fff;
     padding: 30px;
@@ -16,21 +15,21 @@
     width: 300px;
 }
 
-/* Заголовок форми */
+
 .form-heading {
     text-align: center;
     margin-bottom: 20px;
     color: #333;
 }
 
-/* Контейнер для полів вводу */
+
 .input-container {
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
 
-/* Поля вводу */
+
 .input {
     padding: 10px;
     border: 1px solid #ddd;
@@ -39,7 +38,7 @@
     outline: none;
 }
 
-/* Кнопка входу */
+
 .submit-button {
     margin-top: 20px;
     padding: 10px;
@@ -57,7 +56,7 @@
     background-color: #0056b3;
 }
 
-/* Текст під формою */
+
 .signup-text {
     margin-top: 15px;
     text-align: center;
@@ -65,20 +64,21 @@
     color: #666;
 }
 
-/* Посилання для реєстрації */
+
 .signup-link {
     color: #007BFF;
     text-decoration: none;
     font-weight: bold;
 }
 
-/* Контейнер для логотипу */
+
 .logo-container {
     margin-left: 20px;
 }
 
-/* Стиль логотипу */
-.logo {
-    width: 100px;
-    height: auto;
+
+.logos {
+    width: 300px;
+    height: 300px;
+
 }
