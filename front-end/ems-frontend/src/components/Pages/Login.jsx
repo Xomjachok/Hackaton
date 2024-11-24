@@ -1,17 +1,15 @@
-import React from "react";
-
 import './Login.css'
-import logo from '../../assets/logo.png';
+import colorcolor from '../../assets/colorcolor.png';
 function Login() {
     return (
 <>
     <div className="form-container">
         <div className="logo-container">
             <img
-                src={logo}
+                src={colorcolor}
                 alt="Logo"
                 className="logos"
-                style={{marginRight: '10%'}}
+                style={{marginRight: '15%'}}
             />
         </div>
         <form className="form">

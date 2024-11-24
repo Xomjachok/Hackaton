@@ -1,24 +1,34 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('../../assets/bg.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
 
 .form-container {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: #f4f4f4;
+
 }
 
 .form {
-    background-color: #fff;
+    color: white;
     padding: 30px;
     border-radius: 15px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     width: 300px;
+    margin-left: 5%;
 }
 
 
 .form-heading {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     color: #333;
 }
 
@@ -43,7 +53,7 @@
     margin-top: 20px;
     padding: 10px;
     width: 100%;
-    background-color: #007BFF;
+    background-image: url('../../assets/bg.svg');
     color: #fff;
     font-size: 16px;
     border: none;
