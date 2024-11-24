@@ -4,11 +4,15 @@ import openai
 import os
 import re
 import json
+from werkzeug.utils import secure_filename
 from dotenv import load_dotenv
 
 load_dotenv()
 
 app = Flask(__name__)
+app.config['UPLOAD_FOLDER'] = 'uploads'  # Directory to save uploaded files
+os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
+
 openai.api_key = os.getenv('OPENAI_API')  # Replace with your OpenAI key
 
 
@@ -81,6 +85,24 @@ def generate_js_chart_data(data, prompt, char_limit=1000000):
     except Exception as e:
         print(f"Error with GPT request: {e}")
         return None
+
+
+@app.route('/upload-file', methods=['POST'])
+def upload_file():
+    """API endpoint to upload CSV file."""
+    if 'file' not in request.files:
+        return jsonify({"error": "No file part in the request"}), 400
+
+    file = request.files['file']
+    if file.filename == '':
+        return jsonify({"error": "No selected file"}), 400
+
+    if file:
+        filename = secure_filename(file.filename)
+        file_path = os.path.join(app.config['UPLOAD_FOLDER'], filename)
+        file.save(file_path)
+        print(f"File saved to {file_path}")
+        return jsonify({"file_path": file_path}), 200
 
 
 @app.route('/generate-chart', methods=['POST'])
